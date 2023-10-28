@@ -1,10 +1,12 @@
 <script>
-  import { Alert } from 'flowbite-svelte';
+  import { Heading, P } from 'flowbite-svelte';
 </script>
 
-<div class="p-8">
-  <Alert>
-    <span class="font-medium">Info alert!</span>
-    Change a few things up and try submitting again.
-  </Alert>
-</div>
+<Heading tag="h2">DataLearn</Heading>
+
+<br />
+
+<P
+  >A collection of free resources to help you learn about probability,
+  statistics, and data science.</P
+>
