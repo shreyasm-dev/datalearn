@@ -9,14 +9,14 @@
     NavHamburger,
   } from 'flowbite-svelte';
 
-  const pages: [string, string][] = [['Probability', '/probability']];
+  const pages: [string, string][] = [['Resources', '/resources']];
 
   $: activeUrl = $page.url.pathname;
 </script>
 
 <div class="app">
   <div class="navbar">
-    <Navbar rounded color="form">
+    <Navbar>
       <NavBrand href="/">
         <span
           class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-5"
