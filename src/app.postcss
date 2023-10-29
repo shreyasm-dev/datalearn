@@ -4,8 +4,11 @@
 @tailwind utilities;
 
 .app {
-  padding: 1rem;
   height: 100vh;
+
+  .navbar {
+    padding: 1rem;
+  }
 
   .content {
     max-width: 1200px;
@@ -14,6 +17,8 @@
   }
 }
 
-li > a.bg-primary-700 {
-  @apply text-white;
+@media (max-width: 767px) {
+  li > a.bg-primary-700 {
+    @apply text-white;
+  }
 }

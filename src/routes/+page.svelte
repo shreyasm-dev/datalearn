@@ -1,5 +1,5 @@
 <script>
-  import { Heading, P } from 'flowbite-svelte';
+  import { A, Button, Heading, P } from 'flowbite-svelte';
 </script>
 
 <Heading tag="h2">DataLearn</Heading>
@@ -8,5 +8,35 @@
 
 <P
   >A collection of free resources to help you learn about probability,
-  statistics, and data science.</P
+  statistics, data science, AI/ML, and more.</P
 >
+
+<br />
+<br />
+
+<Heading tag='h5'>
+  Step 1: Start by learning about <A href='/data'>Data</A>
+</Heading>
+
+<br />
+
+<Heading tag='h5'>
+  Step 2: Learn about <A href='/probability'>Probability</A>
+</Heading>
+
+<br />
+
+<Heading tag='h5'>
+  Step 3: Learn the basics of <A href='/statistics'>Statistics</A>
+</Heading>
+
+<br />
+
+<Heading tag='h5'>
+  Step 4: Check out some more <A href='/resources'>Resources</A> to learn about data science, machine learning, AI, and more
+</Heading>
+
+<br />
+<br />
+
+<Button href='/data' color='primary'>Get Started</Button>
