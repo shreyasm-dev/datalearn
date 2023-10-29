@@ -1,5 +1,6 @@
 <script>
-  import { Heading, P } from 'flowbite-svelte';
+  import { Heading, Hr, P } from 'flowbite-svelte';
+  import Exercise from '../../components/Exercise.svelte';
 </script>
 
 <Heading tag="h2">Data</Heading>
@@ -39,3 +40,26 @@
   also ratio data. 0 Kelvin actually means something concrete, so 30 Kelvin
   <em>is</em> twice as hot as 15 Kelvin.
 </P>
+
+<Hr />
+
+<Heading tag="h4">Exercises</Heading>
+
+<br />
+
+<Exercise
+  question="What type of data is the size of a t-shirt?"
+  options={['Ordinal', 'Nominal']}
+/>
+
+<br />
+
+<Exercise
+  question="Which of these is NOT an example of ratio data?"
+  options={[
+    'Credit score',
+    'Height',
+    'Temperature in Kelvin',
+    'Temperature in Rankine',
+  ]}
+/>
