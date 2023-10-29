@@ -1,6 +1,7 @@
 <script>
   import { Button, Heading, Hr, P } from 'flowbite-svelte';
   import MultipleChoiceExercise from '../../components/MultipleChoiceExercise.svelte';
+  import { url } from '../../constants';
 </script>
 
 <Heading tag="h2">Data</Heading>
@@ -66,4 +67,4 @@
 
 <Hr />
 
-<Button href="/probability">Proceed</Button>
+<Button href={url('/probability')} color="primary">Next: Probability</Button>

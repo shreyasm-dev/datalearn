@@ -1,6 +1,7 @@
 <script>
   import { Button, Heading, Hr, P } from 'flowbite-svelte';
   import FreeResponseExercise from '../../components/FreeResponseExercise.svelte';
+  import { url } from '../../constants';
 </script>
 
 <Heading tag="h2">Probability</Heading>
@@ -104,4 +105,4 @@ Format all answers as fractions (like x/y, no spaces)
 
 <Hr />
 
-<Button href="/statistics">Proceed</Button>
+<Button href={url('/statistics')}>Next: Statistics</Button>

@@ -8,12 +8,13 @@
     NavUl,
     NavHamburger,
   } from 'flowbite-svelte';
+  import { url } from '../constants';
 
   const pages: [string, string][] = [
-    ['Data', '/data'],
-    ['Probability', '/probability'],
-    ['Statistics', '/statistics'],
-    ['Resources', '/resources'],
+    ['Data', url('/data')],
+    ['Probability', url('/probability')],
+    ['Statistics', url('/statistics')],
+    ['Resources', url('/resources')],
   ];
 
   $: activeUrl = $page.url.pathname;
@@ -22,7 +23,7 @@
 <div class="app">
   <div class="navbar">
     <Navbar>
-      <NavBrand href="/">
+      <NavBrand href={url('/')}>
         <span
           class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-5"
           >DataLearn</span

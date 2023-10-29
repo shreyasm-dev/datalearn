@@ -1,6 +1,7 @@
 <script>
   import { Button, Heading, Hr, P } from 'flowbite-svelte';
   import FreeResponseExercise from '../../components/FreeResponseExercise.svelte';
+  import { url } from '../../constants';
 </script>
 
 <Heading tag="h2">Statistics</Heading>
@@ -145,4 +146,4 @@
 
 <Hr />
 
-<Button href="/resources">Proceed</Button>
+<Button href={url('/resources')}>Next: Resources</Button>
