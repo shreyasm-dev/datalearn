@@ -54,5 +54,13 @@
         submitted = true;
       }}>Submit</Button
     >
+
+    <Button
+      color="alternative"
+      on:click={() => {
+        selected = shuffled.findIndex(({ value }) => value === options[0]);
+        submitted = true;
+      }}>Show Answer</Button
+    >
   </div>
 </Card>

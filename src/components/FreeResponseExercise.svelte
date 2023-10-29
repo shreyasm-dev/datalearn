@@ -42,5 +42,13 @@
         submitted = true;
       }}>Submit</Button
     >
+
+    <Button
+      color="alternative"
+      on:click={() => {
+        value = answer;
+        submitted = true;
+      }}>Show Answer</Button
+    >
   </div>
 </Card>
