@@ -9,7 +9,12 @@
     NavHamburger,
   } from 'flowbite-svelte';
 
-  const pages: [string, string][] = [['Data', '/data'], ['Probability', '/probability'], ['Resources', '/resources']];
+  const pages: [string, string][] = [
+    ['Data', '/data'],
+    ['Probability', '/probability'],
+    ['Statistics', '/statistics'],
+    ['Resources', '/resources'],
+  ];
 
   $: activeUrl = $page.url.pathname;
 </script>
@@ -26,10 +31,7 @@
       <NavHamburger />
       <NavUl {activeUrl}>
         {#each pages as [name, url]}
-          <NavLi
-            href={url}
-            class="text-sm font-medium"
-          >
+          <NavLi href={url} class="text-sm font-medium">
             {name}
           </NavLi>
         {/each}

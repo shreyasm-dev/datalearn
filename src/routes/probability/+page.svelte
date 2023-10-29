@@ -1,6 +1,5 @@
 <script>
   import { Button, Heading, Hr, P } from 'flowbite-svelte';
-  import MultipleChoiceExercise from '../../components/MultipleChoiceExercise.svelte';
   import FreeResponseExercise from '../../components/FreeResponseExercise.svelte';
 </script>
 
@@ -79,7 +78,7 @@
 
 <br />
 
-Format all answers as fractions (like x/y)
+Format all answers as fractions (like x/y, no spaces)
 
 <br />
 <br />
