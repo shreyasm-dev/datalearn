@@ -41,4 +41,4 @@
 <br />
 <br />
 
-<Button href={url('/data')} color="primary">Get Started</Button>
+<Button href={url('/data')} size='xl'>Get Started</Button>
