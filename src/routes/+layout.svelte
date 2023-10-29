@@ -28,7 +28,7 @@
         {#each pages as [name, url]}
           <NavLi
             href={url}
-            class="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white"
+            class="text-sm font-medium"
           >
             {name}
           </NavLi>

@@ -1,5 +1,5 @@
 <script>
-  import { Heading, Hr, P } from 'flowbite-svelte';
+  import { Button, Heading, Hr, P } from 'flowbite-svelte';
   import Exercise from '../../components/Exercise.svelte';
 </script>
 
@@ -63,3 +63,7 @@
     'Temperature in Rankine',
   ]}
 />
+
+<Hr />
+
+<Button href="/probability">Proceed</Button>
