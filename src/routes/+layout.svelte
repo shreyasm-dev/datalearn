@@ -9,7 +9,7 @@
     NavHamburger,
   } from 'flowbite-svelte';
 
-  const pages: [string, string][] = [['Resources', '/resources']];
+  const pages: [string, string][] = [['Data', '/data'], ['Resources', '/resources']];
 
   $: activeUrl = $page.url.pathname;
 </script>
