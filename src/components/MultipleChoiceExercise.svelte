@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Alert, Button, Card, Heading, Hr } from 'flowbite-svelte';
+  import { Alert, Button, Card, Heading, Hr, Select } from 'flowbite-svelte';
 
   export let question: string;
   export let options: [string, ...string[]];
@@ -11,39 +11,34 @@
   const shuffled = options
     .map((value) => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
-    .map(({ value }, i) => ({ value, i }));
+    .map(({ value }, i) => ({ name: value, value: i }));
 </script>
 
 <Card>
   <Heading tag="h6">{question}</Heading>
 
   <div class="p-5">
-    {#each shuffled as { value, i }}
-      <Button
-        class="w-full rounded-lg"
-        color={selected === i ? 'primary' : 'none'}
-        on:click={() => {
-          selected = i;
-          submitted = false;
-        }}
-      >
-        {value}
-      </Button>
-
-      <br />
-    {/each}
+    <Select
+      bind:value={selected}
+      items={shuffled}
+      on:change={() => {
+        submitted = false;
+      }}
+    />
 
     {#if submitted}
       <br />
 
       <Alert
         dismissable
-        color={shuffled[selected].value === options[0] ? 'green' : 'red'}
+        color={shuffled[selected].name === options[0] ? 'green' : 'red'}
         on:close={() => {
           submitted = false;
         }}
       >
-        {@html shuffled[selected].value === options[0] ? `Correct<br /><br />${guidance}` : 'Incorrect'}
+        {@html shuffled[selected].name === options[0]
+          ? `Correct<br /><br />${guidance}`
+          : 'Incorrect'}
       </Alert>
     {/if}
 
@@ -59,7 +54,7 @@
     <Button
       color="alternative"
       on:click={() => {
-        selected = shuffled.findIndex(({ value }) => value === options[0]);
+        selected = shuffled.findIndex(({ name }) => name === options[0]);
         submitted = true;
       }}>Show Answer</Button
     >
