@@ -1,6 +1,6 @@
 <script>
   import { Button, Heading, Hr, P } from 'flowbite-svelte';
-  import Exercise from '../../components/Exercise.svelte';
+  import MultipleChoiceExercise from '../../components/MultipleChoiceExercise.svelte';
 </script>
 
 <Heading tag="h2">Data</Heading>
@@ -47,14 +47,14 @@
 
 <br />
 
-<Exercise
+<MultipleChoiceExercise
   question="What type of data is the size of a t-shirt?"
   options={['Ordinal', 'Nominal']}
 />
 
 <br />
 
-<Exercise
+<MultipleChoiceExercise
   question="Which of these is NOT an example of ratio data?"
   options={[
     'Credit score',
