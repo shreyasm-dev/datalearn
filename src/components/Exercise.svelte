@@ -42,7 +42,7 @@
           submitted = false;
         }}
       >
-        {shuffled[selected].value === options[0] ? 'Correct' : `Incorrect'`}
+        {shuffled[selected].value === options[0] ? 'Correct' : 'Incorrect'}
       </Alert>
     {/if}
 
