@@ -116,7 +116,10 @@
   of unique outfits you can make with x shirts, y pants, and z shoes, you can
   multiply the number of combinations of each thing together. For example, if
   you have 3 shirts, 2 pants, and 4 shoes, then you can make 3 * 2 * 4 = 24
-  unique outfits.
+  unique outfits. You can think of it like this: you have 3 shirts, so you
+  initially have 3 choices. Then, you have 2 pants, so that branches off into 2
+  choices for each shirt, so you have 3 * 2 = 6 choices. Finally, you have 4
+  shoes, so doing that again, you have 6 * 4 = 24 choices.
 </P>
 
 <Hr />
@@ -128,6 +131,7 @@
 <FreeResponseExercise
   question="What is the mean, median, and mode of the numbers 5, 0, 3, 9, 4, 3? (respond with x,y,z and no spaces)"
   answer="4,3.5,3"
+  guidance="The mean is (5 + 0 + 3 + 9 + 4 + 3) / 6 = 24 / 6 = 4. The median is the middle value when the values are sorted, which would be 3.5 (if there are an even number of things, we add the middle two and divide by two). The mode is the most common value, which would be 3 (here, there's only one, but it's possible to have multiple)."
 />
 
 <br />
@@ -135,6 +139,7 @@
 <FreeResponseExercise
   question="If you have 12 people, and you want to select from them a group of 3 people, how many ways can you do that?"
   answer="792"
+  guidance="The group doesn't have an order, so we use the combination formula: 12! / (3! * (12 - 3)!) = 792."
 />
 
 <br />
@@ -142,6 +147,7 @@
 <FreeResponseExercise
   question="You have 5 shirts, 3 pants, and 2 shoes. How many unique outfits can you make?"
   answer="30"
+  guidance="We can multiply the number of combinations of each thing together: 5 * 3 * 2 = 30."
 />
 
 <Hr />

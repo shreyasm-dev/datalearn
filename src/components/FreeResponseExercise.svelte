@@ -3,6 +3,7 @@
 
   export let question: string;
   export let answer: string;
+  export let guidance: string;
 
   let value = '';
   let submitted = false;
@@ -30,7 +31,9 @@
           submitted = false;
         }}
       >
-        {value === answer ? 'Correct' : 'Incorrect'}
+        {@html value === answer
+          ? `Correct<br /><br />${guidance}`
+          : 'Incorrect'}
       </Alert>
     {/if}
 

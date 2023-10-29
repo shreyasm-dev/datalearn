@@ -3,6 +3,7 @@
 
   export let question: string;
   export let options: [string, ...string[]];
+  export let guidance: string;
 
   let selected = 0;
   let submitted = false;
@@ -42,7 +43,7 @@
           submitted = false;
         }}
       >
-        {shuffled[selected].value === options[0] ? 'Correct' : 'Incorrect'}
+        {@html shuffled[selected].value === options[0] ? `Correct<br /><br />${guidance}` : 'Incorrect'}
       </Alert>
     {/if}
 

@@ -51,6 +51,7 @@
 <MultipleChoiceExercise
   question="What type of data is the size of a t-shirt?"
   options={['Ordinal', 'Nominal']}
+  guidance="The data has an inherent ordering, so it is ordinal."
 />
 
 <br />
@@ -63,6 +64,7 @@
     'Temperature in Kelvin',
     'Temperature in Rankine',
   ]}
+  guidance="Credit score is ordinal data because 0 doesn't mean anything concrete. The other three are ratio data because 0 means something concrete (Rankine is like Kelvin but for Fahrenheit, where 0 means no heat at all, the coldest possible temperature)."
 />
 
 <Hr />
