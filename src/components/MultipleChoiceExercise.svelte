@@ -19,6 +19,7 @@
 
   <div class="p-5">
     <Select
+      placeholder="Select an answer"
       bind:value={selected}
       items={shuffled}
       on:change={() => {
