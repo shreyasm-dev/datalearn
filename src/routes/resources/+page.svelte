@@ -30,3 +30,7 @@
 <br />
 
 <A href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn</A>
+
+<br />
+
+<A href="https://www.datacamp.com/learn/r" target="_blank">DataCamp</A>
