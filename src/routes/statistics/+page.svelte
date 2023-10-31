@@ -122,6 +122,38 @@
   shoes, so doing that again, you have 6 * 4 = 24 choices.
 </P>
 
+<br />
+
+<Heading tag="h5">Populations vs. Samples</Heading>
+
+<br />
+
+<P>
+  In statistics, we want to make a few distinctions. A <strong
+    >population</strong
+  >
+  is the <em>entire</em> set of things you're interested in. For example, if
+  you're interested in human height, then the population would be <em>all</em>
+  humans in the world. A <strong>sample</strong> is a <em>subset</em> of the
+  population, the set of things you're actually looking at and collecting data
+  from. This might be a random sample of 1000 humans from the population. The
+  <strong>sample size</strong>
+  is the number of things in the sample, and the larger the sample size, the more
+  accurate (close to the population) the data will be. We call the properties of
+  the population that we want to measure <strong>parameters</strong>, and the
+  properties of the sample that we measure <strong>statistics</strong>.
+</P>
+
+<br />
+
+<Heading tag="h5">Sampling Distributions</Heading>
+
+<br />
+
+<P>
+  A <strong>sampling distribution</strong>
+</P>
+
 <Hr />
 
 <Heading tag="h4">Exercises</Heading>
