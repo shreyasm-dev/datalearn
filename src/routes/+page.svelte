@@ -8,7 +8,7 @@
 <br />
 
 <P
-  >A collection of free resources to help you learn about probability,
+  >A free collection of resources to help you learn about probability,
   statistics, data science, AI/ML, and more.</P
 >
 
@@ -41,4 +41,13 @@
 <br />
 <br />
 
-<Button href={url('/data')} size='xl'>Get Started</Button>
+<Button href={url('/data')} size="xl">Get Started</Button>
+
+<br />
+<br />
+
+Each page covers a single topic and is broken down into a few different
+sections. There are exercises at the end of each page to help you practice what
+you've learned. If you need to be refreshed on a topic or don't know it, the <A
+  href={url('/resources')}>Resources</A
+> page has a list of resources broken down by topic that go into depth.
