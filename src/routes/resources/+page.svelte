@@ -1,6 +1,5 @@
 <script>
-  import { A, Heading } from 'flowbite-svelte';
-  import Tag from '../../components/Tag.svelte';
+  import { A, Badge, Heading } from 'flowbite-svelte';
 </script>
 
 <Heading tag="h4">Statistics and Probability</Heading>
@@ -11,8 +10,9 @@
   href="https://www.khanacademy.org/math/statistics-probability"
   target="_blank"
 >
-  Khan Academy - Statistics and Probability <Tag>Free</Tag>
+  Khan Academy - Statistics and Probability
 </A>
+<Badge color="green">Free</Badge>
 
 <br />
 
@@ -20,8 +20,9 @@
   href="https://www.edx.org/learn/statistics/massachusetts-institute-of-technology-fundamentals-of-statistics"
   target="_blank"
 >
-  edX (MIT) - Fundamentals of Statistics <Tag>Free</Tag>
+  edX (MIT) - Fundamentals of Statistics
 </A>
+<Badge color="green">Free</Badge>
 
 <br />
 <br />
@@ -30,7 +31,8 @@
 
 <br />
 
-<A href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn <Tag>Free</Tag></A>
+<A href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn</A>
+<Badge color="green">Free</Badge>
 
 <br />
 
@@ -40,6 +42,11 @@
 <br />
 
 <Heading tag="h4">AI/ML</Heading>
+
+<br />
+
+<A href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn</A>
+<Badge color="green">Free</Badge>
 
 <br />
 
@@ -68,3 +75,9 @@
 >
   DataCamp - Introduction to Natural Language Processing in R
 </A>
+
+<style>
+  div.rounded {
+    margin-left: 0.5rem;
+  }
+</style>
