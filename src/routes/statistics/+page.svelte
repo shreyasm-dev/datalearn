@@ -178,27 +178,37 @@
 
 <br />
 
-<FreeResponseExercise
-  question="What is the mean, median, and mode of the numbers 5, 0, 3, 9, 4, 3? (respond with x,y,z and no spaces)"
-  answer="4,3.5,3"
-  guidance="The mean is (5 + 0 + 3 + 9 + 4 + 3) / 6 = 24 / 6 = 4. The median is the middle value when the values are sorted, which would be 3.5 (if there are an even number of things, we add the middle two and divide by two). The mode is the most common value, which would be 3 (here, there's only one, but it's possible to have multiple)."
-/>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <FreeResponseExercise
+    question="What is the mean, median, and mode of the numbers 5, 0, 3, 9, 4, 3? (respond with x,y,z and no spaces)"
+    answer="4,3.5,3"
+    guidance="The mean is (5 + 0 + 3 + 9 + 4 + 3) / 6 = 24 / 6 = 4. The median is the middle value when the values are sorted, which would be 3.5 (if there are an even number of things, we add the middle two and divide by two). The mode is the most common value, which would be 3 (here, there's only one, but it's possible to have multiple)."
+  />
 
-<br />
+  <FreeResponseExercise
+    question="If you have 12 people, and you want to select from them a group of 3 people, how many ways can you do that?"
+    answer="792"
+    guidance="The group doesn't have an order, so we use the combination formula: 12! / (3! * (12 - 3)!) = 792."
+  />
 
-<FreeResponseExercise
-  question="If you have 12 people, and you want to select from them a group of 3 people, how many ways can you do that?"
-  answer="792"
-  guidance="The group doesn't have an order, so we use the combination formula: 12! / (3! * (12 - 3)!) = 792."
-/>
+  <FreeResponseExercise
+    question="For a probability distribution with a mean of 5 and a standard deviation of 2, what percentage of the values are within 1 standard deviation of the mean?"
+    answer="68.2"
+    guidance="We know that for a normal distribution, 68.2% of the values are within 1 standard deviation of the mean. The actual value of the mean and standard deviation don't matter."
+  />
 
-<br />
+  <FreeResponseExercise
+    question="For a probability distribution with a standard deviation of 3.5, how many units away from the mean are 95.4% of the values?"
+    answer="7"
+    guidance="We know that for a normal distribution, 95.4% of the values are within 2 standard deviations of the mean. So, 2 * 3.5 = 7."
+  />
 
-<FreeResponseExercise
-  question="You have 5 shirts, 3 pants, and 2 shoes. How many unique outfits can you make?"
-  answer="30"
-  guidance="We can multiply the number of combinations of each thing together: 5 * 3 * 2 = 30."
-/>
+  <FreeResponseExercise
+    question="You have 5 shirts, 3 pants, and 2 shoes. How many unique outfits can you make?"
+    answer="30"
+    guidance="We can multiply the number of combinations of each thing together: 5 * 3 * 2 = 30."
+  />
+</div>
 
 <Hr />
 

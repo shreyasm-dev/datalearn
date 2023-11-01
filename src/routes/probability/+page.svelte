@@ -84,27 +84,25 @@ Format all answers as fractions (like x/y, no spaces)
 <br />
 <br />
 
-<FreeResponseExercise
-  question="What is the probability of rolling a 1 or a 2 on a standard die?"
-  answer="1/3"
-  guidance="The probability of rolling any single number on a die is 1/6, so the probability of rolling a 1 or a 2 is 1/6 + 1/6 = 1/3."
-/>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <FreeResponseExercise
+    question="What is the probability of rolling a 1 or a 2 on a standard die?"
+    answer="1/3"
+    guidance="The probability of rolling any single number on a die is 1/6, so the probability of rolling a 1 or a 2 is 1/6 + 1/6 = 1/3."
+  />
 
-<br />
+  <FreeResponseExercise
+    question="What is the probability of rolling either a 1 or a 2 on a standard die but not both?"
+    answer="11/36"
+    guidance="The probability of rolling a 1 or a 2 is 1/3, and the probability of rolling a 1 and a 2 is 1/36, so the probability of rolling either a 1 or a 2 but not both is 1/3 - 1/36 = 11/36."
+  />
 
-<FreeResponseExercise
-  question="What is the probability of rolling either a 1 or a 2 on a standard die but not both?"
-  answer="11/36"
-  guidance="The probability of rolling a 1 or a 2 is 1/3, and the probability of rolling a 1 and a 2 is 1/36, so the probability of rolling either a 1 or a 2 but not both is 1/3 - 1/36 = 11/36."
-/>
-
-<br />
-
-<FreeResponseExercise
-  question="After rolling three consecutive 6s on a standard die, what is the probability of rolling another 6?"
-  answer="1/6"
-  guidance="The probability of rolling a 6 is 1/6, so the probability of rolling a 6 after rolling three consecutive 6s is still 1/6. The die doesn't have a memory of the previous rolls, so the outcome of the fourth roll is independent of the previous rolls. Refer to the gambler's fallacy."
-/>
+  <FreeResponseExercise
+    question="After rolling three consecutive 6s on a standard die, what is the probability of rolling another 6?"
+    answer="1/6"
+    guidance="The probability of rolling a 6 is 1/6, so the probability of rolling a 6 after rolling three consecutive 6s is still 1/6. The die doesn't have a memory of the previous rolls, so the outcome of the fourth roll is independent of the previous rolls. Refer to the gambler's fallacy."
+  />
+</div>
 
 <Hr />
 

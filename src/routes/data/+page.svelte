@@ -63,24 +63,24 @@
 
 <br />
 
-<MultipleChoiceExercise
-  question="What type of data is the size of a t-shirt?"
-  options={['Ordinal', 'Nominal']}
-  guidance="The data has an inherent ordering, so it is ordinal."
-/>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <MultipleChoiceExercise
+    question="What type of data is the size of a t-shirt?"
+    options={['Ordinal', 'Nominal']}
+    guidance="The data has an inherent ordering, so it is ordinal."
+  />
 
-<br />
-
-<MultipleChoiceExercise
-  question="Which of these is NOT an example of ratio data?"
-  options={[
-    'Credit score',
-    'Height',
-    'Temperature in Kelvin',
-    'Temperature in Rankine',
-  ]}
-  guidance="Credit score is ordinal data because 0 doesn't mean anything concrete. The other three are ratio data because 0 means something concrete (Rankine is like Kelvin but for Fahrenheit, where 0 means no heat at all, the coldest possible temperature)."
-/>
+  <MultipleChoiceExercise
+    question="Which of these is NOT an example of ratio data?"
+    options={[
+      'Credit score',
+      'Height',
+      'Temperature in Kelvin',
+      'Temperature in Rankine',
+    ]}
+    guidance="Credit score is ordinal data because 0 doesn't mean anything concrete. The other three are ratio data because 0 means something concrete (Rankine is like Kelvin but for Fahrenheit, where 0 means no heat at all, the coldest possible temperature)."
+  />
+</div>
 
 <Hr />
 
