@@ -42,6 +42,21 @@
   <em>is</em> twice as hot as 15 Kelvin.
 </P>
 
+<br />
+
+<Heading tag="h5">Representing Data</Heading>
+
+<br />
+
+<P>
+  Data can be represented in a variety of ways, such as a table, a graph, or a
+  chart. The type of data determines the best way to represent it. For example,
+  nominal data is best represented by a bar chart, while ordinal data is best
+  represented by a bar chart or a line graph. Interval and ratio data are best
+  represented by a histogram or a line graph. These aren't hard rules, though,
+  so you have to use your own judgement.
+</P>
+
 <Hr />
 
 <Heading tag="h4">Exercises</Heading>

@@ -151,7 +151,25 @@
 <br />
 
 <P>
-  A <strong>sampling distribution</strong>
+  A <strong>sampling distribution</strong> is a curve that describes a probability
+  distribution for a statistic, obtained from many samples taken from a population.
+  It represents the distribution of the frequencies of the possible values of the
+  statistic. For example, if we take a sample of 1000 humans from the population
+  of all humans and we measure the heights of each of them, then we can plot a histogram
+  of the heights. The sampling distribution would be the curve that describes the
+  probability distribution of the heights.
+</P>
+
+<br />
+
+<P>
+  A <strong>normal distribution</strong> is a type of sampling distribution that
+  looks like a bell curve. It's symmetric, and the mean, median, and mode are all
+  equal to 0. We know that for a normal distribution, 68.2% of the values are within
+  1 standard deviation of the mean, 95.4% of the values are within 2 standard deviations
+  of the mean, 99.7% of the values are within 3 standard deviations of the mean,
+  and so on. Many things in the real world follow a scaled and translated normal
+  distribution, so it's useful to know how they work.
 </P>
 
 <Hr />
